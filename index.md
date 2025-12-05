@@ -112,3 +112,5 @@
 	- `systemctl enable sshd.service`
 	- `systemctl start sshd.service`
 - check status with `systemctl status sshd.service`
+###### Problems I ran Into
+- One major problem that occurred was that I created a wrong  file paths or typing the wrong filesystem commands, which created some errors during formatting and mounting. I had to go back and carefully verify each device name and command to make sure the partitions were created correctly.
